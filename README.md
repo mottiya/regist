@@ -1,16 +1,11 @@
 # regist
 
-A new Flutter project.
+Это полноэкранное приложение windows для сенсорного экрана на Flutter. Сенсорный монитор устанавливается на стойке регистрации. Новый клиент выбирает цель посещения, вводит свое имя, по итогу отправляется сообщение в чат telegram со всеми HR менеджерами от бота, что пришел новый клиент и его надо встретить. Выполнено в фирменом стиле компании.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Установить dart/Flutter.
+Добавить токен telegram бота и id чата в который будут приходить сообщения в код, в файле .\lib\services\telegram_service.dart
+(Бот должен быть добавлен в группу telegram и разрешены сообщения, иметь права администратора)
+После этого в терминале нужно ввести flutter build windows. Создастся репозиторий .\build
+Далее можно создать ярлык рабочего стола или запустить exe файл из .\build\windows\runner\Release\regist.exe

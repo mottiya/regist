@@ -5,7 +5,11 @@
 ## Getting Started
 
 Установить dart/Flutter.
+
 Добавить токен telegram бота и id чата в который будут приходить сообщения в код, в файле .\lib\services\telegram_service.dart
+
 (Бот должен быть добавлен в группу telegram и разрешены сообщения, иметь права администратора)
+
 После этого в терминале нужно ввести flutter build windows. Создастся репозиторий .\build
+
 Далее можно создать ярлык рабочего стола или запустить exe файл из .\build\windows\runner\Release\regist.exe
